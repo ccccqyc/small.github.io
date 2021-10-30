@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T03:04:16.264Z" agent="5.0 (Windows)" etag="n1F9yivBx3Zk8HYE0zRV" version="15.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T03:29:41.149Z" agent="5.0 (Windows)" etag="RvQZ_aX1PBO2r5cuLdQv" version="15.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,17 +36,62 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="根据khh&lt;div&gt;读取MySQL&lt;/div&gt;&lt;div&gt;是否返回WTH&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="根据khh + 日期&lt;br&gt;&lt;div&gt;读取MySQL&lt;/div&gt;&lt;div&gt;是否返回WTH&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="15" y="300" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="从Oracle 读取khh 同步" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="30" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="根据khh+wth从oracle同步到Mysql" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="190" y="310" width="120" height="40" as="geometry" />
+          <mxGeometry x="210" y="335" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="W7xjYRwC-Du2TRU0WcZi-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W7xjYRwC-Du2TRU0WcZi-9" target="W7xjYRwC-Du2TRU0WcZi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-9" value="&lt;div&gt;开始/非第一次&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W7xjYRwC-Du2TRU0WcZi-10" target="W7xjYRwC-Du2TRU0WcZi-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-10" value="&lt;div&gt;是否配置客户&lt;/div&gt;khh" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-22" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W7xjYRwC-Du2TRU0WcZi-24" target="W7xjYRwC-Du2TRU0WcZi-25">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-23" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W7xjYRwC-Du2TRU0WcZi-24" target="W7xjYRwC-Du2TRU0WcZi-26">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-24" value="根据khh + 日期&lt;br&gt;&lt;div&gt;读取MySQL&lt;/div&gt;&lt;div&gt;是否返回WTH&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="165" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-25" value="从Oracle 读取khh(1) 同步" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="512.5" y="325" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-26" value="根据khh+wth从oracle同步到Mysql" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="707" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-29" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W7xjYRwC-Du2TRU0WcZi-10" target="W7xjYRwC-Du2TRU0WcZi-24">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="670" y="225" as="sourcePoint" />
+            <mxPoint x="520" y="220" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-37" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="394" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7xjYRwC-Du2TRU0WcZi-39" value="1.1根据日期&lt;br&gt;&lt;div&gt;读取MySQL&lt;/div&gt;&lt;div&gt;是否返回KHH1+ WTH&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.2读取Oracle&lt;br&gt;返回KHH2&lt;/div&gt;&lt;div&gt;1.3 结合khh1 (wth)+ khh2(1)&lt;br&gt;根据 1.3 同步&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="267.5" y="410" width="295" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
